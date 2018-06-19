@@ -49,11 +49,11 @@ if(isset($_POST['submit'])){
         <h1 class="title">Photo Collection</h1>
         <form action="register.php" method="post" class="form-box">
             <h2>Register here</h2> 
-            <input class="input" type="text" name="username" placeholder="Username"><br><br> 
-            <input class="input" type="text" name="firstname" placeholder="First name"><br><br> 
-            <input class="input" type="text" name="lastname" placeholder="Last name"><br><br> 
-            <input class="input" type="email" name="email" placeholder="Email"><br><br> 
-            <input class="input" type="password" name="password" placeholder="Password"><br><br> 
+            <input class="input" required type="text" name="username" placeholder="Username"><br><br> 
+            <input class="input" required type="text" name="firstname" placeholder="First name"><br><br> 
+            <input class="input" required type="text" name="lastname" placeholder="Last name"><br><br> 
+            <input class="input" required type="email" name="email" placeholder="Email"><br><br> 
+            <input class="input" required type="password" name="password" placeholder="Password"><br><br> 
             <input type="submit" name="submitBtn" value="Register" class="button"> 
             <?php if($usernameExist) : ?>
                 The username already exists.

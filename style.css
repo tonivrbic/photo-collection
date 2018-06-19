@@ -59,7 +59,7 @@ html {
 
 @media only screen and (min-width: 30em) {
   .photo-container {
-    height: 10em;
+    height: 13em;
     width: initial;
     margin: 0.25em;
   }
@@ -74,7 +74,7 @@ html {
     padding: 1em;
   }
   .photo-container {
-    height: 13em;
+    height: 15em;
   }
 }
 @media (min-width: 72em) {
