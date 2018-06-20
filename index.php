@@ -41,7 +41,7 @@
                     image-id="<?= $row['id'] ?>" 
                     src="<?= $row['path'] ?>" 
                     width="<?= $row['width'] ?>" 
-                    heigth="<?= $row['heigth'] ?>" />
+                    height="<?= $row['height'] ?>" />
             </div>
         <?php endwhile; ?>
     </div>
